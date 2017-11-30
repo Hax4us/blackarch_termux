@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "\033[32m blackarch server url is initializing ...\033[0m"
+printf "\n[blackarch]\nServer = http://blackarch.org/blackarch/\$repo/os/\$arch" >> $HOME/arch/etc/pacman.conf
+echo "\033[32m Done\033[0m"
